@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BensBurgers.Logic;
+using BensBurgers.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,5 +15,12 @@ namespace BensBurgers
         {
 
         }
+
+        public List<CartItem> GetShoppingCartItems()
+        {
+            ShoppingCartActions actions = new ShoppingCartActions();
+            return actions.GetCartItems();
+        }
+
     }
 }
