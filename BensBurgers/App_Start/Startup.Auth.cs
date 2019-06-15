@@ -61,8 +61,8 @@ namespace BensBurgers
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "",
-                ClientSecret = ""
+                ClientId = "260089081888-ivtfneqqo5gf7tnmfqno5qg5msjt1933.apps.googleusercontent.com",
+                ClientSecret = "r-DM5tLmonRp7SeExX4QhOUu"
             });
         }
     }
