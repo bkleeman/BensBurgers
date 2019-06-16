@@ -11,7 +11,8 @@
             <asp:BoundField DataField="Quantity" HeaderText="Quantity" />        
         </Columns>    
     </asp:GridView>
-    <asp:DetailsView ID="ShipInfo" runat="server" AutoGenerateRows="false" GridLines="None" CellPadding="10" BorderStyle="None" CommandRowStyle-BorderStyle="None">
+    <asp:DetailsView ID="ShipInfo" runat="server" AutoGenerateRows="False" GridLines="None" CellPadding="10" BorderStyle="None" CommandRowStyle-BorderStyle="None">
+<CommandRowStyle BorderStyle="None"></CommandRowStyle>
         <Fields>
         <asp:TemplateField>
             <ItemTemplate>
