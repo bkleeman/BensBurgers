@@ -34,8 +34,8 @@ public class NVPAPICaller
     //Replace <Your API Password> with your API Password
     //Replace <Your Signature> with your Signature
     public string APIUsername = "<Your API Username>";
-    private string APIPassword = "<Your API Password>";
-    private string APISignature = "<Your Signature>";
+    private string APIPassword = "<Your API Password> ";
+    private string APISignature = "<Your Signature> ";
     private string Subject = "";
     private string BNCode = "PP-ECWizard";
 
@@ -58,8 +58,8 @@ public class NVPAPICaller
             host = host_SB;
         }
 
-        string returnURL = "https://localhost:44300/Checkout/CheckoutReview.aspx";
-        string cancelURL = "https://localhost:44300/Checkout/CheckoutCancel.aspx";
+        string returnURL = "https://localhost:44302/Checkout/CheckoutReview.aspx";
+        string cancelURL = "https://localhost:44302/Checkout/CheckoutCancel.aspx";
 
         NVPCodec encoder = new NVPCodec();
         encoder["METHOD"] = "SetExpressCheckout";
