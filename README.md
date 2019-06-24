@@ -1,4 +1,4 @@
-﻿# Ben's Burgers
+# Ben's Burgers
 
 In Spring 2019, I took a User Interface Development course, in which I learned the fundamentals of C# and .NET by building console, WPF, and ASP.NET Web Forms applications. 
 
